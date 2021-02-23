@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+
+        }
+        body{
+            background-color: purple;
+        }
+        .container{
+            background-color: blue;
+            border: 3px solid rgb(64, 6, 119);
+            /* We can set margin and padding for top,bottom,left,right like this */
+            /* padding-top: 70px; */
+            /* padding-bottom: 79px; */
+            /* padding-left: 34px; */
+            /*  */
+           padding: 6px 14px 26px 78px; 
+           /*padding and margin =top right bottom left*/
+           /*padding: 34 px 19 px; *//*padding=y(top/bottom) x(left/right) */
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+            box-sizing: border-box;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur minima praesentium commodi! Dolorem commodi facere odio, possimus voluptatibus incidunt explicabo sed porro, quae nihil asperiores corporis aliquam soluta est laboriosam in tempore, adipisci sunt beatae! Tempora ratione sit ea ducimus?</p>
+    </div>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur minima praesentium commodi! Dolorem commodi facere odio, possimus voluptatibus incidunt explicabo sed porro, quae nihil asperiores corporis aliquam soluta est laboriosam in tempore, adipisci sunt beatae! Tempora ratione sit ea ducimus?</p>
+    </div>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur minima praesentium commodi! Dolorem commodi facere odio, possimus voluptatibus incidunt explicabo sed porro, quae nihil asperiores corporis aliquam soluta est laboriosam in tempore, adipisci sunt beatae! Tempora ratione sit ea ducimus?</p>
+    </div>
+</body>
+</html>
